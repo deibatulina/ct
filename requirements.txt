@@ -1,0 +1,17 @@
+datasets==4.6.1
+Pillow==12.2.0
+python-dotenv==1.2.1
+huggingface_hub==1.8.0
+nibabel==5.3.2
+numpy
+PyYAML
+evaluate
+bert-score
+monai
+torch
+torchvision
+transformers
+peft
+nltk
+rouge_score
+absl-py

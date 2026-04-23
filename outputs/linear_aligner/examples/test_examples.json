@@ -1,0 +1,122 @@
+[
+  {
+    "id": "train_2681_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Diffuse patchy ground-glass densities, air bronchogram signs, and enlargement of vascular structures are observed in both lungs. The findings were evaluated in favor of Covid-19 viral pneumonia.",
+    "prediction": ". The pulmonary embolism was observed at a dose of 0·10 mm/L (mean ± SD) and 1·0mm(±SD) per ml−1, respectively. In all cases, there were no significant differences between patients with or without lung cancer diagnosis compared to controls; however, it"
+  },
+  {
+    "id": "train_6783_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Minimal peribronchial thickening was observed in the segmental-subsegmental bronchi of both lungs. No mass lesion-active infiltration with distinguishable borders was detected in the lung parenchyma.",
+    "prediction": "."
+  },
+  {
+    "id": "train_1186_a_1.nii.gz::mediastinum",
+    "prompt": "Chest CT findings in the mediastinum:",
+    "reference": "Thoracic aorta diameter is normal. No enlarged lymph nodes in prevascular, pre-paratracheal, subcarinal or bilateral hilar-axillary pathological dimensions were detected. Mediastinal main vascular structures, heart contour, size are normal.",
+    "prediction": "The pleural effusion was not detected.\n, and there were no significant differences between patients with or without a pulmonary embolus (P<0·0001)."
+  },
+  {
+    "id": "train_19824_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "Evaluation and follow-up with previous examinations, if any, is recommended. Pleuroparenchymal sequelae density increases were observed in the left lung inferior lingular segment and right lung middle lobe. When both lung parenchyma windows are evaluated; Multiple parenchymal nodules measuring 6.5 mm in diameter in the right lobe posterobasal segment and 5 mm in diameter in the left lung lower lobe posterobasal segment were observed in different localizations.",
+    "prediction": ". The pulmonary embolus was not detected by any other imaging or radiologic tests, and no evidence of lung pathology occurred during examination (Figure 1)."
+  },
+  {
+    "id": "train_1730_a_1.nii.gz::pleura",
+    "prompt": "Chest CT findings in the pleura:",
+    "reference": "There is a free pleural effusion reaching 6 cm in its thickest part between the pleural leaves on the right and atelectatic changes in the adjacent lung parenchyma.",
+    "prediction": ". The patient was discharged from hospital on arrival at a local clinic and is now receiving treatment for an acute chest infection, which has been confirmed by radiograph examination of his lung tissue (Figures 1A-1B). He underwent surgery to remove all remaining lesions; he will be admitted back into intensive care with"
+  },
+  {
+    "id": "train_19328_c_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; No active infiltration or mass lesion was detected in both lungs. There are sequela parenchymal changes observed in the previous CT examination in the posterior segment of the right lung upper lobe and both lung lower lobes. Millimetrically sized nonspecific nodules were observed in both lungs.",
+    "prediction": "."
+  },
+  {
+    "id": "train_7523_a_1.nii.gz::pleura",
+    "prompt": "Chest CT findings in the pleura:",
+    "reference": "No pleural or pericardial effusion was detected.",
+    "prediction": "The patient was not affected by any adverse events.\n, but there were no significant changes to normal or abnormal blood flow and a positive result of pulmonary embolus (P<0·0001)."
+  },
+  {
+    "id": "train_7280_b_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "The effusion measured 50 mm at its thickest point. In the presence of primary disease, this appearance may be due to a metastasis or, less likely, to an infective pathology. Apart from the described nodule, there are many millimetric nodules in both lungs. It appears that this view has just emerged. The lower lobes of both lungs are almost completely atelectatic except for the superior segments. It is not specific in the described appearance. There is minimal ground glass area and minimal interlobular septal thickening in the posterior segment of the right lung upper lobe. There is a nodule measuring 17 mm in diameter in the posterior segment of the right lung upper lobe. No mass was detected in both lungs. There is atelectasis adjacent to the effusion in both lung lower lobes. There are minimal emphysematous changes in both lungs. It is recommended that the patient be evaluated together with clinical and laboratory findings and evaluated with CT after appropriate treatment.",
+    "prediction": ". The pulmonary embolus was not detected by any other imaging or radiologic tests, and no evidence of lung pathology occurred during examination (Figure 1). In addition to a significant reduction in blood flow from myocardial infarction-related complications such as bronchospasmic stenosis due atrial f"
+  },
+  {
+    "id": "valid_1161_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "There is minimal bronchiectasis in the central parts of both lungs. No mass or infiltrative lesion was detected in both lungs. Emphysematous changes are observed in both lungs. There are millimetric nonspecific nodules in both lungs.",
+    "prediction": ". The pulmonary embolic area was not affected by any of these complications, and there were no significant changes to lung function or other parameters measured during examination (Figure 1). In all cases, a positive result for bronchial epithelial lymphocyte infiltration is observed at autopsy; however, this finding does not indicate that"
+  },
+  {
+    "id": "train_2093_a_1.nii.gz::pleura",
+    "prompt": "Chest CT findings in the pleura:",
+    "reference": "There are several subpleural nonspecific nodules measuring up to 5 mm in size at the anterior and inferior lingula level of both lungs.",
+    "prediction": "The patient was discharged from surgery."
+  },
+  {
+    "id": "train_17620_a_1.nii.gz::mediastinum",
+    "prompt": "Chest CT findings in the mediastinum:",
+    "reference": "No pathological LAP was detected in the mediastinum. The heart and mediastinal vascular structures have a natural appearance.",
+    "prediction": "The pleural effusion was not detected.\n, and there were no significant differences between patients with or without a pulmonary embolus (P<0·0001)."
+  },
+  {
+    "id": "train_5412_a_1.nii.gz::mediastinum",
+    "prompt": "Chest CT findings in the mediastinum:",
+    "reference": "No pathologically enlarged lymph nodes were detected in the mediastinum and hilar regions. The widths of the mediastinal main vascular structures are normal. Mediastinal structures cannot be evaluated optimally because contrast material is not given. No enlarged lymph nodes in pathological dimensions were detected.",
+    "prediction": "The medullary and submammal arteries are located at a normal level.\nThe main artery is not visible, but it has been observed that there was no significant difference between patients with or without chest pain compared to those who had an open-chest operation (Figure 1)."
+  },
+  {
+    "id": "train_12512_d_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "No detectable prominent lymph nodes were detected in both hilar-level non-contrast examinations. Bilaterally, density increases compatible with pleuroparenchymal sequelae are observed at the apical level. There are consolidative parenchyma areas with air bronchograms in the basal segments on both sides adjacent to the fluid. Fluid extends slightly towards the interlobar fissure on both sides. Mild thickenings are observed in the interlobular septa in both lungs. Scattered peripherally located ground-glass-like density increases are observed in both lungs.",
+    "prediction": ". The pulmonary embolus was not detected by any other imaging or radiologic tests, and no evidence of lung pathology occurred during examination (Figure 1). In addition to a small number ocular lesions on both sides of the chest cavity were observed at each site; however, there is an absence of significant lesion"
+  },
+  {
+    "id": "train_6724_a_1.nii.gz::pleura",
+    "prompt": "Chest CT findings in the pleura:",
+    "reference": "Pleural effusion was observed in both hemithorax, measuring 12 mm in the deepest part on the right and 11 mm in the deepest part on the left.",
+    "prediction": ". The patient was discharged from surgery and is now receiving a full-term followup visit to be evaluated for possible complications of his or her lung function, including pulmonary edema (pulmonary embolism), bronchial obstruction, myocardium dysfunction, renal failure, atherosclerosis, perioral"
+  },
+  {
+    "id": "train_12992_a_1.nii.gz::pleura",
+    "prompt": "Chest CT findings in the pleura:",
+    "reference": "Bilateral pleural thickening - effusion was not detected.",
+    "prediction": ". The patient was discharged from surgery and underwent a full-term followup visit at 3 weeks postoperative, with no adverse events reported (P < 0·0001)."
+  },
+  {
+    "id": "train_6932_a_1.nii.gz::pleura",
+    "prompt": "Chest CT findings in the pleura:",
+    "reference": "An irregularly circumscribed nodule measuring 8.3x4.7 mm was observed in the subpleural area, adjacent to the fissure in the superior segment of the lower lobe of the right lung. In addition, an irregularly circumscribed 12x4.2 mm nodule with linear extensions to the surrounding parenchyma and pleura was observed in the lower lobe laterobasal segment.",
+    "prediction": "The patient was discharged from surgery.\n, but not aortic valve or any other organ function; however, he had no significant edema and did have normal blood flow to his lungs (Figures 1A-B)."
+  },
+  {
+    "id": "train_2538_a_1.nii.gz::mediastinum",
+    "prompt": "Chest CT findings in the mediastinum:",
+    "reference": "No pathologically enlarged lymph nodes were detected in the mediastinum and hilar regions. The widths of the mediastinal main vascular structures are normal. Mediastinal structures cannot be evaluated optimally because contrast material is not given. No enlarged lymph nodes in pathological dimensions were detected.",
+    "prediction": "The pleural effusion was not detected.\n, and there were no significant differences between patients with or without a pulmonary embolus (P<0·0001)."
+  },
+  {
+    "id": "train_9038_a_1.nii.gz::mediastinum",
+    "prompt": "Chest CT findings in the mediastinum:",
+    "reference": "No enlarged lymph nodes in prevascular, pre-paratracheal, subcarinal or bilateral hilar-axillary pathological dimensions were detected. Mediastinal main vascular structures, heart contour, size are normal.",
+    "prediction": "The pleural effusion was not detected.\n, and there were no significant differences between patients with or without a pulmonary embolus (P<0·0001)."
+  },
+  {
+    "id": "train_7342_b_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "Other findings are stable. The prevalence and intensity of Covid-19 pneumonia in the lung parenchyma is regressed.",
+    "prediction": ". The pulmonary embolus was not detected by any other imaging or radiologic tests, and no evidence of lung pathology occurred during examination (Figure 1)."
+  },
+  {
+    "id": "train_14123_a_1.nii.gz::mediastinum",
+    "prompt": "Chest CT findings in the mediastinum:",
+    "reference": "No lymph node was observed in the supraclavicular fossa, axilla and mediastinum in pathological size and appearance.",
+    "prediction": "The pleural effusion was not detected.\n, and there were no significant differences between patients with or without aortic valve stenosis (P<0·0001)."
+  }
+]

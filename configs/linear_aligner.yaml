@@ -1,0 +1,47 @@
+experiment_name: linear_aligner
+
+data:
+  train_path: data/preprocessing/train.json
+  val_path: data/preprocessing/val.json
+  test_path: data/preprocessing/test.json
+  input_mode: multi_slice
+  num_slices: 8
+  image_size: 224
+  max_text_length: 256
+  prompt_template: "Chest CT findings in the {anatomy_phrase}:"
+
+model:
+  visual_encoder_name: resnet18
+  language_model_name: openai-community/gpt2
+  visual_feature_dim: 512
+  lm_hidden_dim: 768
+  visual_prefix_tokens: 4
+  aggregation: mean
+  projection_type: linear_aligner
+  num_anatomy_labels: 3
+  use_anatomy_embedding: true
+  use_slice_position_embedding: true
+  freeze_visual_encoder: true
+  freeze_language_model: true
+
+training:
+  seed: 42
+  batch_size: 4
+  num_epochs: 5
+  learning_rate: 0.00005
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0
+  label_smoothing: 0.05
+  early_stopping_metric: rougeL
+
+generation:
+  max_new_tokens: 64
+  do_sample: false
+  num_beams: 1
+  repetition_penalty: 1.2
+  no_repeat_ngram_size: 3
+
+outputs:
+  root_dir: outputs/linear_aligner

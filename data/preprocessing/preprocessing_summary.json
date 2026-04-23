@@ -1,0 +1,88 @@
+{
+  "status": "ok",
+  "raw_rows": 665218,
+  "scanned_studies": 25692,
+  "kept_rows": 25255,
+  "duplicate_rows": 25255,
+  "excluded_empty_text": 0,
+  "excluded_missing_study_id": 0,
+  "excluded_null_anatomy": 25692,
+  "excluded_nested_anatomy": 297908,
+  "excluded_anatomy_filter": 291108,
+  "records_before_sampling": 25255,
+  "records_after_sampling": 5000,
+  "unique_studies": 5000,
+  "split_counts": {
+    "train": 4000,
+    "val": 500,
+    "test": 500
+  },
+  "anatomy_counts": {
+    "lung": 5000
+  },
+  "split_anatomy_counts": {
+    "train": {
+      "lung": 4000
+    },
+    "val": {
+      "lung": 500
+    },
+    "test": {
+      "lung": 500
+    }
+  },
+  "text_stats": {
+    "num_records": 5000,
+    "unique_target_texts": 5000,
+    "repeated_target_text_ratio": 0.0,
+    "most_common_target_text_share": 0.0002,
+    "text_length_chars": {
+      "min": 25,
+      "mean": 376.432,
+      "max": 1200
+    },
+    "sentences_per_record": {
+      "min": 1,
+      "mean": 1.0,
+      "max": 1
+    }
+  },
+  "slice_selection_stats": {
+    "num_records": 5000,
+    "lung_focused_selection_count": 4999,
+    "fallback_selection_count": 1,
+    "full_volume_range_count": 2,
+    "start_zero_count": 202,
+    "end_last_slice_count": 1590,
+    "expanded_range_count": 26,
+    "duplicate_slice_index_count": 0
+  },
+  "requested_volumes": 5000,
+  "downloaded_volumes": 4997,
+  "cached_volumes": 3,
+  "failed_volumes": 0,
+  "download_batch_size": 10,
+  "download_chunks": 500,
+  "requested_slice_cache_studies": 10000,
+  "created_slice_cache_studies": 5000,
+  "cached_slice_cache_studies": 0,
+  "failed_slice_cache_studies": 0,
+  "excluded_studies_count": 0,
+  "slice_cache_validation": {
+    "validated_records": 5000,
+    "validated_slice_cache_files": 5000,
+    "validated_cached_slices": 40000,
+    "invalid_records": [],
+    "invalid_records_count": 0
+  },
+  "duration_seconds": 19379.343,
+  "artifacts": {
+    "train": "/home/smb/app/data/preprocessing/train.json",
+    "val": "/home/smb/app/data/preprocessing/val.json",
+    "test": "/home/smb/app/data/preprocessing/test.json",
+    "summary": "/home/smb/app/data/preprocessing/preprocessing_summary.json",
+    "excluded_studies": "/home/smb/app/data/preprocessing/excluded_studies.json",
+    "studies_manifest": "/home/smb/app/data/preprocessing/studies_manifest.json",
+    "slices_dir": "/home/smb/app/data/preprocessing/slices"
+  }
+}

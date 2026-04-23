@@ -1,0 +1,122 @@
+[
+  {
+    "id": "train_2681_a_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Diffuse patchy ground-glass densities, air bronchogram signs, and enlargement of vascular structures are observed in both lungs. The findings were evaluated in favor of Covid-19 viral pneumonia.",
+    "prediction": "When examined under both lung parenchyma window; There are millimetric nonspecific nodules on both sides of the right lung."
+  },
+  {
+    "id": "train_6783_a_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Minimal peribronchial thickening was observed in the segmental-subsegmental bronchi of both lungs. No mass lesion-active infiltration with distinguishable borders was detected in the lung parenchyma.",
+    "prediction": "No mass lesion was detected at both hilar levels. When examined together with other CT scans, no nodular or infiltrative infiltration-active lymph node is observed in pathological size and appearance."
+  },
+  {
+    "id": "train_1186_a_1.nii.gz::mediastinum",
+    "prompt": "CT findings in the mediastinum:",
+    "reference": "Thoracic aorta diameter is normal. No enlarged lymph nodes in prevascular, pre-paratracheal, subcarinal or bilateral hilar-axillary pathological dimensions were detected. Mediastinal main vascular structures, heart contour, size are normal.",
+    "prediction": "No enlarged lymph nodes were detected. Mediostinal main vascular structures, heart contour and size are normal."
+  },
+  {
+    "id": "train_19824_a_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "Evaluation and follow-up with previous examinations, if any, is recommended. Pleuroparenchymal sequelae density increases were observed in the left lung inferior lingular segment and right lung middle lobe. When both lung parenchyma windows are evaluated; Multiple parenchymal nodules measuring 6.5 mm in diameter in the right lobe posterobasal segment and 5 mm in diameter in the left lung lower lobe posterobasal segment were observed in different localizations.",
+    "prediction": "When examined under both lung parenchyma window; No mass or infiltrative lesion was detected."
+  },
+  {
+    "id": "train_1730_a_1.nii.gz::pleura",
+    "prompt": "CT findings in the pleura:",
+    "reference": "There is a free pleural effusion reaching 6 cm in its thickest part between the pleural leaves on the right and atelectatic changes in the adjacent lung parenchyma.",
+    "prediction": "Pleural effusion-thickening was not detected."
+  },
+  {
+    "id": "train_19328_c_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; No active infiltration or mass lesion was detected in both lungs. There are sequela parenchymal changes observed in the previous CT examination in the posterior segment of the right lung upper lobe and both lung lower lobes. Millimetrically sized nonspecific nodules were observed in both lungs.",
+    "prediction": "When examined under both lung parenchyma window; No mass or infiltrative lesion was detected."
+  },
+  {
+    "id": "train_7523_a_1.nii.gz::pleura",
+    "prompt": "CT findings in the pleura:",
+    "reference": "No pleural or pericardial effusion was detected.",
+    "prediction": "Pleural effusion-thickening was not detected."
+  },
+  {
+    "id": "train_7280_b_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "The effusion measured 50 mm at its thickest point. In the presence of primary disease, this appearance may be due to a metastasis or, less likely, to an infective pathology. Apart from the described nodule, there are many millimetric nodules in both lungs. It appears that this view has just emerged. The lower lobes of both lungs are almost completely atelectatic except for the superior segments. It is not specific in the described appearance. There is minimal ground glass area and minimal interlobular septal thickening in the posterior segment of the right lung upper lobe. There is a nodule measuring 17 mm in diameter in the posterior segment of the right lung upper lobe. No mass was detected in both lungs. There is atelectasis adjacent to the effusion in both lung lower lobes. There are minimal emphysematous changes in both lungs. It is recommended that the patient be evaluated together with clinical and laboratory findings and evaluated with CT after appropriate treatment.",
+    "prediction": "When examined under both lung parenchyma window; There are millimetric nonspecific nodules on both sides of the right lung."
+  },
+  {
+    "id": "valid_1161_a_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "There is minimal bronchiectasis in the central parts of both lungs. No mass or infiltrative lesion was detected in both lungs. Emphysematous changes are observed in both lungs. There are millimetric nonspecific nodules in both lungs.",
+    "prediction": "When examined under both lung parenchyma window; No mass or infiltrative lesion was detected."
+  },
+  {
+    "id": "train_2093_a_1.nii.gz::pleura",
+    "prompt": "CT findings in the pleura:",
+    "reference": "There are several subpleural nonspecific nodules measuring up to 5 mm in size at the anterior and inferior lingula level of both lungs.",
+    "prediction": "Pleural effusion-thickening was not detected."
+  },
+  {
+    "id": "train_17620_a_1.nii.gz::mediastinum",
+    "prompt": "CT findings in the mediastinum:",
+    "reference": "No pathological LAP was detected in the mediastinum. The heart and mediastinal vascular structures have a natural appearance.",
+    "prediction": "No enlarged lymph nodes were detected. Mediastinal main vascular structures, heart contour and size are normal."
+  },
+  {
+    "id": "train_5412_a_1.nii.gz::mediastinum",
+    "prompt": "CT findings in the mediastinum:",
+    "reference": "No pathologically enlarged lymph nodes were detected in the mediastinum and hilar regions. The widths of the mediastinal main vascular structures are normal. Mediastinal structures cannot be evaluated optimally because contrast material is not given. No enlarged lymph nodes in pathological dimensions were detected.",
+    "prediction": "No enlarged lymph nodes were detected. Mediastinal main vascular structures, heart contour and size are normal."
+  },
+  {
+    "id": "train_12512_d_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "No detectable prominent lymph nodes were detected in both hilar-level non-contrast examinations. Bilaterally, density increases compatible with pleuroparenchymal sequelae are observed at the apical level. There are consolidative parenchyma areas with air bronchograms in the basal segments on both sides adjacent to the fluid. Fluid extends slightly towards the interlobar fissure on both sides. Mild thickenings are observed in the interlobular septa in both lungs. Scattered peripherally located ground-glass-like density increases are observed in both lungs.",
+    "prediction": "When examined under both lung parenchyma window; No mass lesion was detected at all hilar levels."
+  },
+  {
+    "id": "train_6724_a_1.nii.gz::pleura",
+    "prompt": "CT findings in the pleura:",
+    "reference": "Pleural effusion was observed in both hemithorax, measuring 12 mm in the deepest part on the right and 11 mm in the deepest part on the left.",
+    "prediction": "Pleural effusion-thickening was not detected."
+  },
+  {
+    "id": "train_12992_a_1.nii.gz::pleura",
+    "prompt": "CT findings in the pleura:",
+    "reference": "Bilateral pleural thickening - effusion was not detected.",
+    "prediction": "Pleural effusion-thickening was not detected."
+  },
+  {
+    "id": "train_6932_a_1.nii.gz::pleura",
+    "prompt": "CT findings in the pleura:",
+    "reference": "An irregularly circumscribed nodule measuring 8.3x4.7 mm was observed in the subpleural area, adjacent to the fissure in the superior segment of the lower lobe of the right lung. In addition, an irregularly circumscribed 12x4.2 mm nodule with linear extensions to the surrounding parenchyma and pleura was observed in the lower lobe laterobasal segment.",
+    "prediction": "Pleural effusion-thickening was not detected."
+  },
+  {
+    "id": "train_2538_a_1.nii.gz::mediastinum",
+    "prompt": "CT findings in the mediastinum:",
+    "reference": "No pathologically enlarged lymph nodes were detected in the mediastinum and hilar regions. The widths of the mediastinal main vascular structures are normal. Mediastinal structures cannot be evaluated optimally because contrast material is not given. No enlarged lymph nodes in pathological dimensions were detected.",
+    "prediction": "No enlarged lymph nodes were detected. Mediastinal main vascular structures, heart contour and size are normal."
+  },
+  {
+    "id": "train_9038_a_1.nii.gz::mediastinum",
+    "prompt": "CT findings in the mediastinum:",
+    "reference": "No enlarged lymph nodes in prevascular, pre-paratracheal, subcarinal or bilateral hilar-axillary pathological dimensions were detected. Mediastinal main vascular structures, heart contour, size are normal.",
+    "prediction": "No enlarged lymph nodes were detected. Mediostinal main vascular structures, heart contour and size are normal."
+  },
+  {
+    "id": "train_7342_b_1.nii.gz::lung",
+    "prompt": "CT findings in the lungs:",
+    "reference": "Other findings are stable. The prevalence and intensity of Covid-19 pneumonia in the lung parenchyma is regressed.",
+    "prediction": "No mass lesion was detected at both hilar levels. When examined together with other CT scans, no nodular or infiltrative lesional lesions were observed on both lung parenchyma and bilateral hilar regions."
+  },
+  {
+    "id": "train_14123_a_1.nii.gz::mediastinum",
+    "prompt": "CT findings in the mediastinum:",
+    "reference": "No lymph node was observed in the supraclavicular fossa, axilla and mediastinum in pathological size and appearance.",
+    "prediction": "No enlarged lymph nodes were detected. Mediastinal main vascular structures, heart contour and size are normal."
+  }
+]
