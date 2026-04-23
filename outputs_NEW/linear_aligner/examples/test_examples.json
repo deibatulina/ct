@@ -1,0 +1,122 @@
+[
+  {
+    "id": "train_16142_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; In both lungs, there are areas of diffuse ground glass and density increase compatible with consolidation in all segments, more prominent on the right. Viral pneumonias are considered in the etiology of the findings.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema was observed at a distance from myocardium and bronchial artery, which are adjacent to one another; however, there were no significant differences between these two groups (Figure 1). In addition we found that all three patients had an abnormal"
+  },
+  {
+    "id": "train_16544_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "There are mild atelectatic changes and patchy ground glass densities at the basal level of the lower lobe of the right lung. Lobar pneumonia in the first place of the findings? evaluated in its favour. When examined in the lung parenchyma window; In the lower lobe of the left lung, a consolidated area with air bronchogram signs is observed at the posterobasal level.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema has been observed at a distance from one end to the other, and there are no signs of pneumonitis or pneumonia (Figure 1). There were significant differences between patients with bronchial lesions compared those without chest pain; however, it"
+  },
+  {
+    "id": "train_7175_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "A diffuse mosaic attenuation pattern was observed in both lungs (small airway disease? small vessel disease?). Pleuroparenchymal sequelae density increases were observed in the left lung inferior lingular segment. Fibroatelectatic changes were observed in the lower lobe of the left lung. When examined in the lung parenchyma window; A large area of atelectasis was observed in the middle lobe of the right lung. A parenchymal nodule with a diameter of 6 mm was observed in the lower lobe of the left lung.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema was observed at a distance from myocardium and bronchial artery, which are adjacent to one another; however, there were no significant differences between these two groups (P < 0·0001). There were also nonsignificant changes with"
+  },
+  {
+    "id": "train_12063_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Large patchy ground glass densities were observed, accompanied by interlobular septal thickenings that turned into large consolidative areas in the lower lobes of both lungs. Pleuroparenchymal density increases were observed in both lung apexes. Other viral pneumonias should be considered in the differential diagnosis. The described findings are highly suspicious for Covid-19 pneumonia. No mass lesion with distinguishable borders was detected in both lungs. In the upper lobes, the ground glass densities are mostly in peripheral focal nodular form.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema has been observed at different locations and was not detected by any other imaging techniques, including PET or MRI examination (Figures 1A–1C). In addition to a small number peri-magnitude differences between these two sites,"
+  },
+  {
+    "id": "train_9891_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "No lymph node was detected in mediastinal and bilateral hilar pathological size and appearance. When examined in the lung parenchyma window; pleuroparenchymal sequelae density increases were observed in the left lung inferior lingular segment. Minimal pleuroparenchymal sequelae density increases were observed in both lungs apical.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema was observed at a distance from myocardial artery and broncholic arteries, which are adjacent to one another; however, there were no significant differences between these two groups (Figure 1). In addition it appears that this difference may be due"
+  },
+  {
+    "id": "train_11702_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "Patchy ground glass density increases were also observed in the lower lobe of the right lung. The described appearance suggests an infectious process in the first place. In the lower lobe of the left lung, a large area of consolidation and patchy ground glass density increases are observed in its vicinity. When examined in the lung parenchyma window; Mosaic attenuation pattern is observed in both lungs. Aspiration pneumonia should be considered in the differential diagnosis. No lymph node was detected in mediastinal and bilateral hilar pathological size and appearance.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema has been observed at all stages and was not evident during examination, but it may be due to a small incision or an infection with mucous membrane (Figure 1)."
+  },
+  {
+    "id": "train_2197_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "There are millimetric nodules in both lungs, the largest of which is 3 mm in diameter. When examined in the lung parenchyma window; Focal fibrotic densities were observed in both lungs.",
+    "prediction": "The lung is located on a small, non-metastatic segment of pulmonary artery.\nThe presence of an abnormal pneumonectin (Pneumonia) was observed at both sites and there were no significant differences between patients with or without pneumonia compared to those who did not have any disease symptoms during follow up examination"
+  },
+  {
+    "id": "train_14773_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Patchy ground glass densities and air bronchogram signs are observed in both lungs, mostly peripherally located in the central part. The findings were initially evaluated in favor of Covid-19 viral pneumonia. Clinical laboratory correlation monitoring is recommended.",
+    "prediction": "The pulmonary embolus was observed at a dose of 0.5 mg/kg (0·1 ml) per day for 6 days after vaccination with measles-mumps‐rubella vaccine, and there were no significant differences between patients who received MMR or placebo compared to those receiving either control group; however, both"
+  },
+  {
+    "id": "train_14437_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "No mass infiltration was detected in both lung parenchyma. Right upper-bilateral lower paratracheal aortopulmonary lymph nodes in millimetric size are observed. Several nonspecific nodules with a diameter of 2.5 mm are observed in the anterior segment of the right lung upper lobe. In the evaluation of both lung parenchyma; Pleuroparenchymal sequelae are observed in the apex of both lungs.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary embolism was observed at a distance from 1 cm to 2 mm (Fig.1). In addition, there were no significant differences in thickness between patients and controls compared with those who had normal or abnormal breathing during their first visit; however, they"
+  },
+  {
+    "id": "train_15476_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "There are millimetric nonspecific nodules in the left lung. Atelectasis is more prominent in the basal segments of the lower lobe of the left lung. No mass or infiltrative lesion was detected in both lungs. Minimal emphysematous changes and locally linear atelectasis were observed in both lungs.",
+    "prediction": "The lung is located on a small portion of its upper lobe. In addition, there are two large lobes (1 and 2) that have been identified as being affected by an abnormal pulmonary embolism with no significant abnormalities or other indications for pneumonitis-like disease [].\nThe patient has undergone surgery to"
+  },
+  {
+    "id": "train_18178_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "No mass lesion-active infiltration was detected in both lungs. When examined in the lung parenchyma window; Linear subsegmental atelectatic changes were observed in the left lung lower lobe laterobasal and upper lobe lingular segments.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema was observed at a distance from myocardium and bronchial artery, which are adjacent to an arterially active area (Figure 1). In addition there was no significant difference between Lungs 2 and 3 or Stroke-like lesions with"
+  },
+  {
+    "id": "train_18207_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "However, in the current examination, there are areas of increase in density consistent with millimetric nodular consolidation in the peripheral areas of the left lung upper lobe anterior and upper lobe posterior segment. In addition, millimetric nodular consolidation area is observed in the apical segment of the upper lobe of the right lung. Linear atelectasis in both lungs and emphysematous changes in both lungs were observed. Pneumonic infiltration is considered in the etiology of the findings. The area of increase in density consistent with consolidation evaluated in favor of pneumonic infiltration with airbronchograms in the superior segment of the right lung lower lobe observed in the previous CT examination showed regression in the current examination. No mass lesions were detected in both lungs.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary embolism was observed at a distance from myocardial infarction and bronchitis, but not pneumonias or pleural effusion (Figure 1). In addition to this finding, there were no significant differences in respiratory tract infection between"
+  },
+  {
+    "id": "train_453_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "Bilateral peribronchial thickenings were observed. Pleuroparenchymal sequelae density increases were observed in the left lung inferior lingular segment.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary embolism has been observed at all stages and was not detected during examination by a radiograph or MRI scan, but it may be due to an abnormal pneumonias (Figure 1)."
+  },
+  {
+    "id": "valid_982_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; One or two millimetric nonspecific nodules are observed in both lungs.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema was observed at a distance from myocardial space and also during examination by an x-ray absorptiogram (Fig. 1). In addition, there were no significant differences between patients with or without chest pain compared to those who did"
+  },
+  {
+    "id": "train_12366_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Both lungs are emphysematous. Mass lesion with distinguishable borders in both lungs – no active infiltration was detected. A subsegmental atelectatic change secondary to osteophyte compression was observed in the right lung lower lobe mediobasal segment. Subsegmental atelectatic changes were observed in the right lung middle lobe medial left lung upper lobe inferior lingular and both lung lower lobe basal segments. There is segmental-subsegmental peribronchial thickening in both lungs.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary embolism was observed at a distance from myocardial infarction and bronchitis, but not pneumonias or pleural effusion (Figure 1). In addition to this finding, there were no significant differences in respiratory tract infection rates"
+  },
+  {
+    "id": "train_547_b_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "When examined in the lung parenchyma window; Pleuroparenchymal density increases, bronchiectasis and sequela fibrotic changes are observed in the upper lobe apex of both lungs, more prominent on the right.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema has been observed at a distance from one end to the other, and there are no signs of pneumonitis or pleural effusion (Figure 1). There were significant differences between patients with different age groups compared among all three subgroups;"
+  },
+  {
+    "id": "train_12928_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "There is a millimetric nodule in the middle lobe of the right lung. Both lung aerations are normal, and no mass or infiltrative lesion is detected in both lungs.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema has been observed at all stages and was not evident after surgery, but it appears that there are no significant differences between patients with a normal or abnormal breathing pattern compared to those without any abnormalities (Figure 1)."
+  },
+  {
+    "id": "train_6298_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "Minimal bronchiectasis was observed in the lower lobes of both lungs. No mass or appearance compatible with pneumonic infiltration was detected in both lungs. The largest of these nodules is observed in the right lung and its longest diameter is approximately 5 mm. There are millimetric nonspecific nodules in both lungs.",
+    "prediction": "The lung is located on a small area of bronchial artery.\nThe pulmonary edema was observed at both sites and there were no significant differences between patients with or without chest pain, but nonspecific nodular lesions (Figure 1). In addition to an increase from baseline examination during follow-up visits for asthma"
+  },
+  {
+    "id": "train_14680_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "The largest of the nodules described is observed in the upper lobe of the left lung and measured approximately 5 mm in diameter. Millimetric nodules were observed in the left lung. These nodules can also be observed in the previous examination of the patient, and no difference was found in their number and size.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema has been observed at all stages of this investigation, including bronchial and peritoneal nodular infiltration (Figure 1). In addition to a small number ocular lesions that are present during examination; there were no significant changes between examinations or"
+  },
+  {
+    "id": "train_16720_a_1.nii.gz::lung",
+    "prompt": "Chest CT findings in the lungs:",
+    "reference": "No nodular lesions were detected in both lung parenchyma. When examined in the lung parenchyma window; Peripheral weighted ground glass densities are present in both lung parenchyma.",
+    "prediction": "The lung is located on both sides of each side.\nThe pulmonary edema was observed at a distance from one end to the other, and there were no significant differences between patients with or without chest pain (P<0·0001). There are two distinct clusters of bronchial lesions that appear as small patches near"
+  }
+]

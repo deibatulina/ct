@@ -1,0 +1,123 @@
+{
+  "status": "ok",
+  "experiment_name": "linear_aligner",
+  "device": "cuda",
+  "epochs_completed": 5,
+  "selection_metric": "rougeL",
+  "best_val_metric": 0.124332,
+  "best_val_metrics": {
+    "loss": 4.139594,
+    "mean_prediction_length": 61.51,
+    "eos_completion_rate": 0.196,
+    "max_length_completion_rate": 0.804,
+    "bleu": 0.005031,
+    "rouge1": 0.220638,
+    "rouge2": 0.020851,
+    "rougeL": 0.124332,
+    "bertscore": 0.837693,
+    "avg_generation_length": 48.194,
+    "repetition_ratio": 0.036602,
+    "distinct1": 0.031373,
+    "distinct2": 0.091071,
+    "empty_output_pct": 0.0,
+    "too_short_output_pct": 0.0,
+    "unique_prediction_ratio": 0.814,
+    "most_common_prediction_share": 0.02,
+    "lung_unique_prediction_ratio": 0.814,
+    "lung_most_common_prediction_share": 0.02,
+    "group_mean_unique_prediction_ratio": 0.814,
+    "group_mean_most_common_prediction_share": 0.02
+  },
+  "test_metrics": {
+    "loss": 4.152742,
+    "mean_prediction_length": 61.746,
+    "eos_completion_rate": 0.2,
+    "max_length_completion_rate": 0.8,
+    "bleu": 0.003751,
+    "rouge1": 0.2237,
+    "rouge2": 0.019837,
+    "rougeL": 0.122657,
+    "bertscore": 0.837137,
+    "avg_generation_length": 48.434,
+    "repetition_ratio": 0.038196,
+    "distinct1": 0.032126,
+    "distinct2": 0.091664,
+    "empty_output_pct": 0.0,
+    "too_short_output_pct": 0.0,
+    "unique_prediction_ratio": 0.816,
+    "most_common_prediction_share": 0.022,
+    "lung_unique_prediction_ratio": 0.816,
+    "lung_most_common_prediction_share": 0.022,
+    "group_mean_unique_prediction_ratio": 0.816,
+    "group_mean_most_common_prediction_share": 0.022
+  },
+  "trainable_parameters": [
+    "bridge.prefix_position_embeddings",
+    "bridge.projection.weight",
+    "bridge.projection.bias",
+    "bridge.anatomy_embedding.weight",
+    "bridge.slice_position_projection.0.weight",
+    "bridge.slice_position_projection.0.bias"
+  ],
+  "trainable_parameter_count": 400896,
+  "artifacts": {
+    "root_dir": "/workspace/app/outputs/linear_aligner",
+    "best_checkpoint": "/workspace/app/outputs/linear_aligner/checkpoints/best.pt",
+    "launch_config": "/workspace/app/outputs/linear_aligner/launch_config.json",
+    "epoch_logs": "/workspace/app/outputs/linear_aligner/logs/epoch_logs.json",
+    "metrics": "/workspace/app/outputs/linear_aligner/logs/metrics.json",
+    "val_predictions": "/workspace/app/outputs/linear_aligner/predictions/val_predictions.json",
+    "test_predictions": "/workspace/app/outputs/linear_aligner/predictions/test_predictions.json",
+    "qualitative_examples": "/workspace/app/outputs/linear_aligner/examples/test_examples.json",
+    "summary": "/workspace/app/outputs/linear_aligner/summary.json"
+  },
+  "config": {
+    "experiment_name": "linear_aligner",
+    "data": {
+      "train_path": "data/preprocessing/train.json",
+      "val_path": "data/preprocessing/val.json",
+      "test_path": "data/preprocessing/test.json",
+      "input_mode": "multi_slice",
+      "num_slices": 8,
+      "image_size": 224,
+      "max_text_length": 256,
+      "prompt_template": "Chest CT findings in the {anatomy_phrase}:"
+    },
+    "model": {
+      "visual_encoder_name": "resnet18",
+      "language_model_name": "openai-community/gpt2",
+      "visual_feature_dim": 512,
+      "lm_hidden_dim": 768,
+      "visual_prefix_tokens": 4,
+      "aggregation": "mean",
+      "projection_type": "linear_aligner",
+      "num_anatomy_labels": 3,
+      "use_anatomy_embedding": true,
+      "use_slice_position_embedding": true,
+      "freeze_visual_encoder": true,
+      "freeze_language_model": true
+    },
+    "training": {
+      "seed": 42,
+      "batch_size": 4,
+      "num_epochs": 5,
+      "learning_rate": 5e-05,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "gradient_accumulation_steps": 1,
+      "max_grad_norm": 1.0,
+      "label_smoothing": 0.05,
+      "early_stopping_metric": "rougeL"
+    },
+    "generation": {
+      "max_new_tokens": 64,
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1.2,
+      "no_repeat_ngram_size": 3
+    },
+    "outputs": {
+      "root_dir": "outputs/linear_aligner"
+    }
+  }
+}

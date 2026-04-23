@@ -1,0 +1,123 @@
+{
+  "status": "ok",
+  "experiment_name": "baseline",
+  "device": "cuda",
+  "epochs_completed": 5,
+  "selection_metric": "rougeL",
+  "best_val_metric": 0.142654,
+  "best_val_metrics": {
+    "loss": 3.829729,
+    "mean_prediction_length": 16.992,
+    "eos_completion_rate": 1.0,
+    "max_length_completion_rate": 0.0,
+    "bleu": 0.0,
+    "rouge1": 0.176267,
+    "rouge2": 0.057196,
+    "rougeL": 0.142654,
+    "bertscore": 0.860958,
+    "avg_generation_length": 11.972,
+    "repetition_ratio": 0.082359,
+    "distinct1": 0.004176,
+    "distinct2": 0.005651,
+    "empty_output_pct": 0.0,
+    "too_short_output_pct": 0.0,
+    "unique_prediction_ratio": 0.018,
+    "most_common_prediction_share": 0.94,
+    "lung_unique_prediction_ratio": 0.018,
+    "lung_most_common_prediction_share": 0.94,
+    "group_mean_unique_prediction_ratio": 0.018,
+    "group_mean_most_common_prediction_share": 0.94
+  },
+  "test_metrics": {
+    "loss": 3.826809,
+    "mean_prediction_length": 17.048,
+    "eos_completion_rate": 1.0,
+    "max_length_completion_rate": 0.0,
+    "bleu": 0.0,
+    "rouge1": 0.179428,
+    "rouge2": 0.058545,
+    "rougeL": 0.14232,
+    "bertscore": 0.860307,
+    "avg_generation_length": 12.048,
+    "repetition_ratio": 0.082503,
+    "distinct1": 0.00747,
+    "distinct2": 0.009957,
+    "empty_output_pct": 0.0,
+    "too_short_output_pct": 0.0,
+    "unique_prediction_ratio": 0.02,
+    "most_common_prediction_share": 0.948,
+    "lung_unique_prediction_ratio": 0.02,
+    "lung_most_common_prediction_share": 0.948,
+    "group_mean_unique_prediction_ratio": 0.02,
+    "group_mean_most_common_prediction_share": 0.948
+  },
+  "trainable_parameters": [
+    "bridge.prefix_position_embeddings",
+    "bridge.projection.weight",
+    "bridge.projection.bias",
+    "bridge.anatomy_embedding.weight",
+    "bridge.slice_position_projection.0.weight",
+    "bridge.slice_position_projection.0.bias"
+  ],
+  "trainable_parameter_count": 1582336,
+  "artifacts": {
+    "root_dir": "/workspace/app/outputs/baseline",
+    "best_checkpoint": "/workspace/app/outputs/baseline/checkpoints/best.pt",
+    "launch_config": "/workspace/app/outputs/baseline/launch_config.json",
+    "epoch_logs": "/workspace/app/outputs/baseline/logs/epoch_logs.json",
+    "metrics": "/workspace/app/outputs/baseline/logs/metrics.json",
+    "val_predictions": "/workspace/app/outputs/baseline/predictions/val_predictions.json",
+    "test_predictions": "/workspace/app/outputs/baseline/predictions/test_predictions.json",
+    "qualitative_examples": "/workspace/app/outputs/baseline/examples/test_examples.json",
+    "summary": "/workspace/app/outputs/baseline/summary.json"
+  },
+  "config": {
+    "experiment_name": "baseline",
+    "data": {
+      "train_path": "data/preprocessing/train.json",
+      "val_path": "data/preprocessing/val.json",
+      "test_path": "data/preprocessing/test.json",
+      "input_mode": "multi_slice",
+      "num_slices": 8,
+      "image_size": 224,
+      "max_text_length": 256,
+      "prompt_template": "Chest CT findings in the {anatomy_phrase}:"
+    },
+    "model": {
+      "visual_encoder_name": "resnet18",
+      "language_model_name": "openai-community/gpt2",
+      "visual_feature_dim": 512,
+      "lm_hidden_dim": 768,
+      "visual_prefix_tokens": 4,
+      "aggregation": "mean",
+      "projection_type": "baseline",
+      "num_anatomy_labels": 3,
+      "use_anatomy_embedding": true,
+      "use_slice_position_embedding": true,
+      "freeze_visual_encoder": true,
+      "freeze_language_model": true
+    },
+    "training": {
+      "seed": 42,
+      "batch_size": 4,
+      "num_epochs": 5,
+      "learning_rate": 5e-05,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "gradient_accumulation_steps": 1,
+      "max_grad_norm": 1.0,
+      "label_smoothing": 0.05,
+      "early_stopping_metric": "rougeL"
+    },
+    "generation": {
+      "max_new_tokens": 64,
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1.2,
+      "no_repeat_ngram_size": 3
+    },
+    "outputs": {
+      "root_dir": "outputs/baseline"
+    }
+  }
+}
